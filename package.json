@@ -1,0 +1,22 @@
+{
+  "name": "vite-plugin-build-date",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "keywords": [],
+  "author": "uxuip",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0",
+    "vite": "^5.0.10"
+  }
+}
