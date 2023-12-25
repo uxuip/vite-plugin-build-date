@@ -1,12 +1,12 @@
 import type { Plugin } from 'vite'
 
 interface Options {
-  name: string
+  name?: string
 }
 
-export default function (options: Options): Plugin {
+export default function (options: Options = {}): Plugin {
   const {
-    name,
+    name = 'Build',
   } = options
   return {
     name: 'vite:build-date',
